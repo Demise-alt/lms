@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(alembic init *)",
+      "Bash(python -m alembic init alembic)",
+      "Bash(python -m alembic revision --autogenerate -m \"Initial migration\")",
+      "Bash(cd /c/Users/Daresh Andholkar/Lms/backend)",
+      "Bash(python -m app.seed)",
+      "Bash(python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/login -H 'Content-Type: application/json' -d '{\"email\": \"admin@eltms.com\", \"password\": \"Admin123!\"}')",
+      "Bash(cd C:\\\\Users\\\\Daresh Andholkar\\\\Lms\\\\frontend)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(sleep 10 && grep -i \"error\\\\|failed\\\\|ready\" /c/Users/DARESH~1/AppData/Local/Temp/claude/C--Users-Daresh-Andholkar-Lms/cc14c0e6-615a-4bd8-ad00-06cba86e0641/tasks/bu1wej10d.output | head -30)"
+    ]
+  }
+}
